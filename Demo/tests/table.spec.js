@@ -5,7 +5,7 @@ import { test, expect } from '@playwright/test';
   const rows=await page.locator('//div[@class="bd-example table-responsive"]').allTextContents();
   const counts=rows.count();
   console.log(counts);
-   //console.log(counts);
-   //console.log(counts);
+   console.log(counts);
+   console.log(counts);
 
   });
