@@ -23,7 +23,8 @@ import{test}from"@playwright/test"
  const page=await context.newPage();
   await page.goto("https://www.amazon.in/")
   await page.locator("input#twotabsearchtextbox").fill("mobiles");
-  //await page.click();
+  
+  await page.click();
   await page.waitForTimeout(3000);
 
   await context.close()

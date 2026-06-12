@@ -1,0 +1,3 @@
+total product count.. 50
+totalproductminimumprice.. Rs. 283
+minimumproduct name.. Guugly Wuugly
